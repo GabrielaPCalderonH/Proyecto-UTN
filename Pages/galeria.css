@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Amatic SC', cursive;
+    font-size: 400;
+}
+
+/*header-nav*/
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-rows: 1fr  1fr;
+    grid-template-columns:  auto auto;
+    background-color: rgb(233, 203, 220);
+}
+    
+.nav-search{
+    width: 200px;
+    margin: 30px 20px;
+    height: 20px;
+    display: flex;
+    justify-self: start;
+}
+
+/*botones-links*/
+
+.link{
+width: 100%;
+height: 50px;
+font-size: 30px;
+padding: 15px 15px;
+text-align: center;
+}
+.link-blog{
+    color: rgb(49, 49, 139);
+    text-decoration: none;
+    background-color: rgb(233, 203, 220);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
+.link-blog:hover{
+    background-color: lavender;
+}
+.link-nosotros{
+    color: rgb(49, 49, 139);
+    text-decoration: none;
+    background-color: rgb(233, 203, 220);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.link-nosotros:hover{
+    background-color: lavender;
+}
+.link-tienda{
+    color: rgb(49, 49, 139);
+    text-decoration: none;
+    background-color: rgb(233, 203, 220);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.link-tienda:hover{
+    background-color: lavender;
+}
+
+/*titulo y parrafo*/
+
+div{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+.seccion0{
+    background-color: lavender;
+    width: 100%;
+    height: 200px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+p{
+    font-size: 30px;
+}
+
+/*secciones*/
+.secciones{
+    background-color: rgb(222, 222, 250);
+    border-top: solid white 2px;
+    font-size: 30px;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(233, 252, 245);
+    width: 100%;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
