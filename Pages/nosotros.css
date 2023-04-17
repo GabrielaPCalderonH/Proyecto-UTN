@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.header{
+    background-color: rgb(54, 54, 253);
+    height: 80px;
+    padding: 5px 10%;
+}
+.menu .nav .li{
+    display: inline-block;
+    background-color: rgb(10, 10, 71);
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+}
