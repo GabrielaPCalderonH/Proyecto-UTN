@@ -1,0 +1,52 @@
+body{
+    padding-top: 15px;
+    background-image: url(../img/img01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+   /*  width: 100vw;
+    height: 100vh; */
+}
+
+.marco{
+    width: 310px;
+    /* height: 70%;
+    margin-left: 35%;
+    display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(194, 55, 78), rgb(94, 50, 112));
+}
+
+.repro{
+    width: 90%;
+    height: 40%;
+    box-shadow: 0 0 15px white;
+    border-radius: 0px 0px 25px 25px;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(94, 50, 112);
+}

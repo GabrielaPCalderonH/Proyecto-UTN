@@ -1,0 +1,80 @@
+header{
+    background-color: blue;
+    font-style: arial;
+    background-size: 50px;
+    font-size: 50px;
+    color: white
+}
+
+body{
+    background-color: darkgrey;
+}
+
+.bloque-titulo{
+    background-color: white;
+}
+.bloque-de-color{
+    background-color: deepskyblue;
+    width: 50ox;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-de-color footer{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+
+}
+
+.barra-navegacion {
+    background-color: darkblue; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+.titulo {
+    color: white; 
+    font-size: 20px; 
+    padding-right: 10px; 
+    border-right: 2px solid white; 
+    margin-left: auto; 
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.cuadro {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.uno {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.dos {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.tres {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.cuatro {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
