@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*  header  */
+
+header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.buscador {
+    position: absolute;
+    left: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a{
+    margin: 0 30px 0 30px;
+    background-color: rgba(241, 174, 174, 0.808);
+    border: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 35%;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+/* Section (titulo y parrafo)  */
+
+section{
+    display: flex;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 15vh;
+}
+
+h1{
+    position: absolute;
+    right:600px;
+    display: flex;
+    text-align: center;
+    margin: 10px 20px 0 100px;
+}
+
+.sectionP{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items:center;
+    margin:0 30px 0 320px;
+}
+
+/*  main   */
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 45vh;
+    background-color: red;
+    color: white;
+}
+
+h2{
+    display: flex;
+    margin: 20px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 90px 15px 15px 25px;
+    font-size: 1.5em;
+}
+
+
+/*  footer  */
+
+footer{
+display: flex;
+justify-content: center;
+background-color: black;
+color: white;
+}
+
+.enviar{
+    color: black;
+    background-color: rgb(204, 201, 201);
+    border-radius: 1px;
+    margin: 2px;
+}
+
+.footer-input{
+    display: flex;
+    justify-content:center;
+    margin: 80px;
+    
+}
+
+.footerP{
+    display: flex;
+    justify-content: center;
+    margin: 90px 70px 20px 0px;
+    font-weight: bold;
+}
