@@ -9,41 +9,73 @@
 
 </head>
 <body>
-    <header>
-        <h2>UTN</h2>
-    </header>
-    <div id="home">
-    <nav class="menu">
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Notas</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Contacto</a></li>
-    </ul>
+    <header class="header">
+        <div class="header_wrp">
+            <h2>UTN</h2>
+        </div>
     
-</nav>
-    </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu_wrp">  
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Notas</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
     <main>
-        <section class="secciones">
-            <div id="principal">
-              <img src="./Imagenes-nosotros/nosotros.jpg" 
-              alt="Titulo de la nota principal"
-              width="550"
-              height="250">
+        <section class="section1">
+            <div>
+              <img id="img" src="../img/nosotros.jpg" 
+              alt="Titulo de la nota principal">
              <h3 class="notas"><a href="#">Titulo de la nota principal</a></h3>
-             <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur vitae voluptatum architecto..</p>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur vitae voluptatum architecto..</p>
             </div>
 
             <div id="segundo">
-                <img src="../img/producto2.jpg" 
+                <img src="./Imagenes-nosotros/producto2.jpg" 
                 alt="Titulo 1 de la nota"
                 width="250"
                 height="200">
                 <h3><a href="#">Titulo 1 de la nota</a></h3>
+                <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur a rem fugiat quae ad officiissksce?</a></p>
             </div>
+
+            <div class="cajas">
+                <img src="../img/producto1.jpg"
+                alt="Titulo 2 de la nota">
+                <h3>Titulo 2 de la nota</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quaerat aspernatur alias magni quos maxime officiis quisquam itaque facer? <a href="#">ver mas...</a></p>
+            </div>
+
+            <div class="cajas">
+                <img src="../img/galeria_04.jpg"
+                alt="Titulo 3 de la nota">
+                <h3>Titulo 3 de la nota</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eos velit et dolore ad temporibus consectetur dolo.</p>
+            </div>
+            
+            <div class="cajas">
+                <img src="../img/principal.jpg"
+                alt="Titulo 4 de la nota">
+                <h3>Titulo 4 de la nota</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eos velit et dolore ad temporibus consec</p>
+            </div>
+
+
 
         </section>
     </main>
+    <aside class= "aside" title="banner 1">
+     <h4>aca va el box banner</h4>
+    </aside>
+    </div>
+    <footer>&#169; 2020 - Derechos reservados</footer>
+    
 </body>
 </html>
