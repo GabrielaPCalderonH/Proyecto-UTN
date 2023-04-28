@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: rgb(134, 199, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 5px;
+    width: 50%;
+    height: 50%;
+    padding: 5%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.box2 :hover{
+    box-shadow: 0 0 5px blue;
+}
+
+.contenedor-n{
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
